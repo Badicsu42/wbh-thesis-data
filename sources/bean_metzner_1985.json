@@ -1,0 +1,139 @@
+{
+  "id": "bean_metzner_1985",
+  "label": "Bean & Metzner (1985)",
+  "apa7": "Bean, J. P., & Metzner, B. S. (1985). A conceptual model of nontraditional undergraduate student attrition. Review of Educational Research, 55(4), 485–540. https://doi.org/10.3102/00346543055004485",
+  "journal": "Review of Educational Research",
+  "volume": "55",
+  "issue": "4",
+  "pages": "485–540",
+  "year": 1985,
+  "pdf_pages_total": 56,
+  "pdf_extracted": true,
+
+  "definition_nontraditional_student": {
+    "text": "A nontraditional student is older than 24, or does not live in a campus residence (e.g., is a commuter), or is a part-time student, or some combination of these three factors; is not greatly influenced by the social environment of the institution; and is chiefly concerned with the institution's academic offerings (especially courses, certification, and degrees).",
+    "page": 489,
+    "chapters": ["2.1", "2.4"],
+    "thesis_mapping": "WBH-Fernstudierende erfüllen alle drei Kriterien: kein Campus, oft Teilzeit, Fokus auf Abschluss. Damit ist das Modell direkt übertragbar."
+  },
+
+  "model_structure": {
+    "four_variable_groups": {
+      "background_and_defining": ["Age", "Enrollment Status", "Residence", "Educational Goals", "High School Performance", "Ethnicity", "Gender"],
+      "academic_variables": ["Study Habits", "Academic Advising", "Absenteeism", "Major Certainty", "Course Availability"],
+      "environmental_variables": ["Finances", "Hours of Employment", "Outside Encouragement", "Family Responsibilities", "Opportunity to Transfer"],
+      "psychological_outcomes": ["Utility", "Satisfaction", "Goal Commitment", "Stress"]
+    },
+    "outcome_chain": "Academic/Environmental Variables → Psychological Outcomes → Intent to Leave → Dropout",
+    "page_figure": 491,
+    "thesis_mapping": {
+      "F5_HZB_missing": "Background Variable – fehlende HZB = schwächere akademische Vorbereitung (High School Performance-Äquivalent)",
+      "F9_vorleistung": "Background Variable – Vorleistung = Prior Academic Performance (protektiv)",
+      "F6_vertragspreis": "Environmental Variable – Finances: höherer Preis = höhere finanzielle Belastung",
+      "F7_studiendauer": "Environmental Variable – längere Studiendauer = höherer kumulativer Aufwand",
+      "F1_age": "Defining Variable – Alter > 24 = nontraditional per Definition",
+      "F3_nonstarter": "Academic Variable – Absenteeism: Non-Starter = maximale Abwesenheit"
+    }
+  },
+
+  "compensatory_interaction": {
+    "core_argument": "For nontraditional students, environmental support compensates for weak academic support, but academic support will NOT compensate for weak environmental support.",
+    "page": 492,
+    "implication": "Wenn Finanzen oder Familienverantwortung zu belastend sind, nützt gute akademische Vorbereitung nichts – Dropout tritt trotzdem ein.",
+    "thesis_mapping": "Erklärt warum F6_vertragspreis (Belastung) β > 0 hat, obwohl F9_vorleistung (Schutz) ebenfalls signifikant ist – sie kompensieren sich nicht vollständig."
+  },
+
+  "key_arguments": [
+    {
+      "argument": "The chief difference between the attrition process of traditional and nontraditional students is that nontraditional students are more affected by the external environment than by the social integration variables affecting traditional student attrition.",
+      "page": 485,
+      "chapters": ["2.4"],
+      "thesis_relevance": "TF1 Kernthese: WBH-Studierende = nontraditional → externe Faktoren (F6, F7) dominieren"
+    },
+    {
+      "argument": "Students' reports of financial difficulty were positively related to attrition from college and many older students expressed concern about their ability to finance a college education.",
+      "page": 503,
+      "chapters": ["2.4", "7.2"],
+      "thesis_mapping": "F6_vertragspreis: β=+0,172, finanzielle Belastung treibt Abbruch"
+    },
+    {
+      "argument": "Environmental variables are presumed to be more important for nontraditional students than academic variables. When academic variables are good but environmental variables are poor, students should leave school.",
+      "page": 491,
+      "chapters": ["2.4", "7.2"]
+    },
+    {
+      "argument": "Social integration has been omitted as a primary component of the model – social integration is rarely a major factor in attrition decisions for nontraditional students.",
+      "page": 510,
+      "chapters": ["2.4"],
+      "thesis_mapping": "Begründung warum F2_female (soziale Variable) und F10_kohorte ausgeschlossen werden konnten"
+    },
+    {
+      "argument": "Age per se was not a major factor in attrition, although some correlates of students' age, such as family responsibility and hours of employment, might be significantly associated with attrition.",
+      "page": 494,
+      "chapters": ["2.4", "7.2"],
+      "thesis_mapping": "F1_age: nur schwacher direkter Effekt (β=−0,189, Rang 6) – konsistent mit Bean & Metzner"
+    },
+    {
+      "argument": "Several studies at commuter institutions reported that students' inability to take desired courses was a factor in dropout; course unavailability was the second highest ranked item among 17 institutional characteristics associated with attrition.",
+      "page": 502,
+      "chapters": ["2.4"]
+    },
+    {
+      "argument": "In each of these multivariate studies, intent to leave was the strongest single predictor of dropout.",
+      "page": 527,
+      "chapters": ["2.4"]
+    }
+  ],
+
+  "direct_quotes": [
+    {
+      "quote": "A nontraditional student is older than 24, or does not live in a campus residence (e.g., is a commuter), or is a part-time student, or some combination of these three factors; is not greatly influenced by the social environment of the institution; and is chiefly concerned with the institution's academic offerings (especially courses, certification, and degrees).",
+      "page": 489,
+      "chapters": ["2.1", "2.4"]
+    },
+    {
+      "quote": "The chief difference between the attrition process of traditional and nontraditional students is that nontraditional students are more affected by the external environment than by the social integration variables affecting traditional student attrition.",
+      "page": 485,
+      "chapters": ["2.4"]
+    },
+    {
+      "quote": "students' reports of financial difficulty were positively related to attrition from college",
+      "page": 503,
+      "chapters": ["7.2"],
+      "note": "Kurzzitat – kein Satzzeichen davor/danach im Original, daher Kleinbuchstabe korrekt"
+    },
+    {
+      "quote": "many older students expressed concern about the ability to finance a college education",
+      "page": 503,
+      "chapters": ["7.2"],
+      "note": "Zweites Kurzzitat aus derselben Passage – für Thesis als Paraphrase bevorzugen oder nur eines direkt zitieren"
+    },
+    {
+      "quote": "because their reference group of peers, friends, family, and employers exists outside the institution",
+      "page": 506,
+      "chapters": ["2.4"],
+      "note": "Erklärung warum externe Faktoren dominieren"
+    }
+  ],
+
+  "finance_variable_detail": {
+    "page": 502,
+    "finding": "Five codifications concluded that students' reports of financial difficulty were positively related to attrition from college. Large number of studies substantiated this for residence-oriented, commuter-oriented 4-year institutions and commuter 2-year colleges.",
+    "older_students": "65% and 68% of traditional age and older full-time students respectively indicated at least some financial concern; 53% of older part-time students mentioned some financial concern; since 1974 the percentage of older part-time students with financial concern has been increasing.",
+    "page_older": 503,
+    "thesis_mapping": "F6_vertragspreis direkt operationalisiert die Finances-Variable – β=+0,172 bestätigt Bean & Metzner"
+  },
+
+  "apa7_intext": {
+    "single": "Bean und Metzner (1985)",
+    "parenthetical": "(Bean & Metzner, 1985)",
+    "with_page": "(Bean & Metzner, 1985, S. X)",
+    "common_errors": [
+      "Bean & Metzner (1984) – FALSCH, korrekt: 1985",
+      "Bean und Metzner (1985, S. 485–540) – Seitenbereich nur bei direkten Zitaten, nicht für Gesamtverweis",
+      "Bean & Metzner 1985 (ohne Klammern) im Fließtext – FALSCH in APA-7"
+    ]
+  },
+
+  "note_for_thesis": "Bean & Metzner (1985) ist eine der Primärquellen in deiner Thesis. Rovai (2003) baut explizit auf diesem Modell auf. Das Modell erklärt TF1 (Integrationsfaktoren) und TF3 (vertragliche Bindung). Für F6_vertragspreis: β > 0 widerspricht zunächst dem Sunk-Cost-Gedanken (Thaler/Arkes & Blumer), ist aber konsistent mit der Finances-Variable bei Bean & Metzner: höhere Kosten = höherer Druck = mehr Abbruch."
+}
