@@ -1,0 +1,143 @@
+{
+  "id": "zimmerman_2002",
+  "label": "Zimmerman (2002)",
+  "apa7": "Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. Theory Into Practice, 41(2), 64–70. https://doi.org/10.1207/s15430421tip4102_2",
+  "journal": "Theory Into Practice",
+  "volume": "41",
+  "issue": "2",
+  "pages": "64–70",
+  "year": 2002,
+  "pdf_pages_total": 7,
+  "pdf_extracted": true,
+  "note": "Thesis referenziert gelegentlich als Zimmerman (2000) – korrekt ist 2002. Zimmerman (2000) ist ein separates Buchkapitel im Handbook of Self-Regulation.",
+  "three_phases": {
+    "forethought_phase": {
+      "description": "Processes and beliefs that occur BEFORE efforts to learn",
+      "page": 67,
+      "subprocesses": {
+        "task_analysis": ["Goal setting", "Strategic planning"],
+        "self_motivation_beliefs": ["Self-efficacy", "Outcome expectations", "Intrinsic interest/value", "Learning goal orientation"]
+      },
+      "thesis_mapping": "F3_nonstarter: Non-Starter initiieren die Forethought Phase nicht – kein Lernziel, keine Strategie, kein Zyklus-Eintritt. Dies ist der zentrale Mechanismus hinter TF2.",
+      "key_quote_page": 67
+    },
+    "performance_phase": {
+      "description": "Processes that occur DURING behavioral implementation",
+      "page": 68,
+      "subprocesses": {
+        "self_control": ["Imagery", "Self-instruction", "Attention focusing", "Task strategies"],
+        "self_observation": ["Self-recording", "Self-experimentation"]
+      },
+      "thesis_mapping": "Nicht direkt in Features operationalisiert – aber Hintergrund für warum Studienaktivität (Einsendungen) als Proxy für Performance Phase dient"
+    },
+    "self_reflection_phase": {
+      "description": "Processes that occur AFTER each learning effort",
+      "page": 68,
+      "subprocesses": {
+        "self_judgment": ["Self-evaluation", "Causal attribution"],
+        "self_reaction": ["Self-satisfaction/affect", "Adaptive/defensive"]
+      },
+      "thesis_mapping": "Defensive Reaktionen (Kursabbruch, Nicht-Engagement) als mögliche Manifestation bei Frühkündigern"
+    }
+  },
+  "key_definitions": [
+    {
+      "concept": "Self-regulation",
+      "definition": "Self-regulation refers to self-generated thoughts, feelings, and behaviors that are oriented to attaining goals",
+      "page": 65,
+      "chapters": ["2.3"]
+    },
+    {
+      "concept": "Self-regulation als Prozess",
+      "definition": "Self-regulation is not a mental ability or an academic performance skill; rather it is the self-directive process by which learners transform their mental abilities into academic skills",
+      "page": 65,
+      "chapters": ["2.3"]
+    },
+    {
+      "concept": "Novices vs. Experts",
+      "definition": "Novices fail to engage in high-quality forethought and instead attempt to self-regulate their learning reactively. That is, they fail to set specific goals or to self-monitor systematically",
+      "page": 69,
+      "chapters": ["2.3", "7.2"],
+      "thesis_mapping": "Non-Starter als Extremfall von Novizen – keinerlei Forethought-Aktivität"
+    }
+  ],
+  "key_arguments": [
+    {
+      "argument": "Self-regulation is not a single personal trait that individual students either possess or lack. Instead, it involves the selective use of specific processes that must be personally adapted to each learning task",
+      "page": 66,
+      "chapters": ["2.3"]
+    },
+    {
+      "argument": "The forethought phase refers to processes and beliefs that occur before efforts to learn",
+      "page": 67,
+      "chapters": ["2.3", "7.2"],
+      "thesis_mapping": "Kernmechanismus hinter F3_nonstarter"
+    },
+    {
+      "argument": "Task analysis involves goal setting and strategic planning. There is considerable evidence of increased academic success by learners who set specific proximal goals for themselves",
+      "page": 68,
+      "chapters": ["2.3"]
+    },
+    {
+      "argument": "This view of self-regulation is cyclical in that self-reflections from prior efforts to learn affect subsequent forethought processes",
+      "page": 68,
+      "chapters": ["2.3"],
+      "thesis_mapping": "Erklärt warum frühe Inaktivität (kein Einstieg) sich selbst verstärkt"
+    },
+    {
+      "argument": "Novices fail to engage in high-quality forethought and instead attempt to self-regulate their learning reactively – they fail to set specific goals or to self-monitor systematically",
+      "page": 69,
+      "chapters": ["2.3", "7.2"]
+    },
+    {
+      "argument": "Self-motivated quality of self-regulated learners depends on several underlying beliefs, including perceived efficacy and intrinsic interest",
+      "page": 66,
+      "chapters": ["2.3"],
+      "source_in_zimmerman": "Bandura (1997)"
+    }
+  ],
+  "direct_quotes": [
+    {
+      "quote": "Self-regulation refers to self-generated thoughts, feelings, and behaviors that are oriented to attaining goals",
+      "page": 65,
+      "chapters": ["2.3"],
+      "note": "Zimmerman verweist hier auf Zimmerman (2000) – das ist sein Buchkapitel, NICHT dieser Artikel"
+    },
+    {
+      "quote": "Self-regulation is not a mental ability or an academic performance skill; rather it is the self-directive process by which learners transform their mental abilities into academic skills",
+      "page": 65,
+      "chapters": ["2.3"]
+    },
+    {
+      "quote": "The forethought phase refers to processes and beliefs that occur before efforts to learn; the performance phase refers to processes that occur during behavioral implementation, and self-reflection refers to processes that occur after each learning effort",
+      "page": 67,
+      "chapters": ["2.3", "7.2"]
+    },
+    {
+      "quote": "Novices fail to engage in high-quality forethought and instead attempt to self-regulate their learning reactively. That is, they fail to set specific goals or to self-monitor systematically",
+      "page": 69,
+      "chapters": ["2.3", "7.2"],
+      "thesis_mapping": "Direkter Bezug zu F3_nonstarter als Manifestation fehlender Forethought"
+    }
+  ],
+  "figure_1": {
+    "description": "Phases and Subprocesses of Self-Regulation – zyklisches Drei-Phasen-Modell",
+    "page": 67,
+    "source": "Zimmerman and Campillo (in press) – adaptiert",
+    "note": "Abbildung zeigt Forethought, Performance und Self-Reflection als Kreislauf mit Pfeilen"
+  },
+  "important_distinction": {
+    "zimmerman_2000_vs_2002": "Zimmerman (2000) ist: Attainment of self-regulation: A social cognitive perspective. In Boekaerts, Pintrich & Zeidner (Eds.), Handbook of self-regulation, pp. 13–39. Academic Press. – Ein SEPARATES Werk. Zimmerman (2002) ist DIESER Artikel in Theory Into Practice.",
+    "page_reference": "S. 65 Fußnote: Zimmerman (2000) wird im Text selbst als separate Quelle zitiert"
+  },
+  "apa7_intext": {
+    "single": "Zimmerman (2002)",
+    "parenthetical": "(Zimmerman, 2002)",
+    "with_page": "(Zimmerman, 2002, S. X)",
+    "common_errors": [
+      "Zimmerman (2000) wenn dieser Artikel gemeint ist – FALSCH, korrekt: Zimmerman (2002)",
+      "Zimmerman (2002, S. 67–68) für die Phasen – korrekt wenn aus diesem Artikel zitiert",
+      "Zimmerman (2000) für das Drei-Phasen-Modell – NUR korrekt wenn das Buchkapitel gemeint ist, nicht dieser Artikel"
+    ]
+  }
+}
