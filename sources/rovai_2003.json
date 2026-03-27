@@ -1,0 +1,120 @@
+{
+  "id": "rovai_2003",
+  "label": "Rovai (2003)",
+  "apa7": "Rovai, A. P. (2003). In search of higher persistence rates in distance education online programs. The Internet and Higher Education, 6(1), 1–16. https://doi.org/10.1016/S1096-7516(02)00158-6",
+  "pdf_pages_total": 16,
+  "pdf_extracted": true,
+  "model_structure": {
+    "prior_to_admission": {
+      "student_characteristics": ["Age", "Ethnicity", "Gender", "Intellectual Development", "Academic Performance", "Academic Preparation"],
+      "student_skills": ["Computer Literacy", "Information Literacy", "Time Management", "Reading & Writing", "Computer-based Interaction"],
+      "page": 8,
+      "thesis_mapping": "F5_HZB_missing (fehlende Dokumentation = schwächere Prior-to-Admission-Anbindung), F9_vorleistung (Planungskompetenz vor Studienbeginn)"
+    },
+    "after_admission": {
+      "external_factors": ["Finances", "Hours of Employment", "Family Responsibilities", "Outside Encouragement", "Opportunity to Transfer", "Life Crises"],
+      "internal_factors_tinto": ["Academic Integration", "Social Integration", "Goal Commitment", "Institutional Commitment", "Learning Community"],
+      "internal_factors_bean_metzner": ["Study Habits", "Advising", "Course Availability", "Program Fit", "Current GPA", "Utility", "Stress", "Satisfaction", "Commitment"],
+      "student_needs": ["Clarity of Programs", "Self-Esteem", "Identification with School", "Interpersonal Relationships", "Accessibility to Services"],
+      "page": 9,
+      "thesis_mapping": "F3_nonstarter = vollständiges Ausbleiben akademischer Integration in der After-Admission-Phase"
+    }
+  },
+  "key_arguments": [
+    {
+      "argument": "Persistence in distance education programs is often 10–20 percentage points lower than in traditional programs",
+      "page": 2,
+      "source_in_rovai": "Carr (2000)",
+      "chapters": ["1.1", "3.2"]
+    },
+    {
+      "argument": "Tinto's model has limited applicability for nontraditional students; it is best suited to institutional analysis of traditional undergraduates",
+      "page": 5,
+      "source_in_rovai": "Maxwell (1998); Rendon, Jalomo & Nora (2000)",
+      "chapters": ["2.2"]
+    },
+    {
+      "argument": "Bean and Metzner's model is more relevant than Tinto's model in explaining the persistence of distance education students",
+      "page": 7,
+      "chapters": ["2.2", "2.4"]
+    },
+    {
+      "argument": "Financial difficulty positively related to attrition: students' reports of financial difficulty were positively related to attrition from college, and many older students expressed concern about financing a college education",
+      "page": 7,
+      "source_in_rovai": "Bean & Metzner (1985, p. 503)",
+      "chapters": ["7.2"],
+      "thesis_mapping": "F6_vertragspreis – Belastungseffekt dominiert Sunk-Cost"
+    },
+    {
+      "argument": "Low sense of community is believed to adversely affect student persistence in online courses",
+      "page": 9,
+      "chapters": ["2.2", "7.2"]
+    },
+    {
+      "argument": "Administrators of distance education programs should be able to use this model to help identify students who are at risk to become dropouts",
+      "page": 13,
+      "chapters": ["8.1"]
+    },
+    {
+      "argument": "The first year experiences of new online students are critical. Early counseling is essential to establish expectations and to give a sense of the college community",
+      "page": 13,
+      "chapters": ["8.2"]
+    },
+    {
+      "argument": "Regardless of students' academic preparation, if they cannot pay for college, make adequate child care arrangements, or adjust their work schedules, they are unlikely to persist",
+      "page": 13,
+      "chapters": ["7.2", "8.2"]
+    }
+  ],
+  "direct_quotes": [
+    {
+      "quote": "the more central one's membership is to the mainstream of institutional life the more likely, other things being equal, is one to persist",
+      "attributed_to": "Tinto (1987, p. 123)",
+      "page_in_rovai": 4,
+      "chapters": ["2.2"],
+      "note": "Tinto-Zitat bei Rovai – Primärquelle: Tinto (1987, p. 123)"
+    },
+    {
+      "quote": "In the final analysis, it is the interplay between the individual's commitment to the goal of college completion and his [or her] commitment to the institution that determines whether or not the individual decides to dropout from college and the forms of dropout behavior the individual adopts. Presumably, either low goal commitment or low institutional commitment can lead to dropout.",
+      "attributed_to": "Tinto (1975, p. 96)",
+      "page_in_rovai": 5,
+      "chapters": ["2.2"],
+      "note": "Tinto-Zitat bei Rovai – Primärquelle: Tinto (1975, p. 96)"
+    },
+    {
+      "quote": "a person will tend to withdraw from college when he [or she] perceives that an alternative form of investment of time, energies, and resources will yield greater benefits, relative to costs, over time than will staying in college",
+      "attributed_to": "Tinto (1975, p. 98)",
+      "page_in_rovai": 5,
+      "chapters": ["2.2", "7.2"],
+      "note": "Tinto-Zitat bei Rovai – Primärquelle: Tinto (1975, p. 98)"
+    },
+    {
+      "quote": "older than 24, does not live in a campus residence (i.e., is a commuter), or is a part-time student, or some combination of these three factors; is not greatly influenced by the social environment of the institution, and is chiefly concerned with the institution's academic offerings (especially courses, certification and degrees)",
+      "attributed_to": "Bean & Metzner (1985, p. 489)",
+      "page_in_rovai": 7,
+      "chapters": ["2.1", "2.4"]
+    },
+    {
+      "quote": "because their reference group of peers, friends, family, and employers exists outside the institution",
+      "attributed_to": "Bean & Metzner (1985, p. 506)",
+      "page_in_rovai": 7,
+      "chapters": ["2.4", "7.2"]
+    },
+    {
+      "quote": "students who achieve social integration find it easier to come to terms with their academic demands",
+      "attributed_to": "Kember et al. (1992, p. 296)",
+      "page_in_rovai": 11,
+      "chapters": ["2.2"],
+      "note": "Kember-Zitat bei Rovai – Primärquelle: Kember et al. (1992, p. 296)"
+    }
+  ],
+  "apa7_intext": {
+    "single": "Rovai (2003)",
+    "parenthetical": "(Rovai, 2003)",
+    "with_page": "(Rovai, 2003, S. X)",
+    "common_errors": [
+      "Rovai (2002) – FALSCH: Einreichung 2002, Publikation 2003",
+      "Rovai (2003, S. 10–11) – nur aus validierten Kapiteln zitieren"
+    ]
+  }
+}
